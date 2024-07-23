@@ -22,12 +22,10 @@ transaction = transaction.Transaction(account_repo, account_statement)
 
 # Make a deposit transaction
 print("Deposit")
-transaction.make_transaction('01', 200, 'deposit')
 transaction.make_transaction('02', 520, 'deposit')
 
 # Make a withdrawal transaction
 print("Withdraw")
-transaction.make_transaction('01', 100, 'withdraw')
 transaction.make_transaction('02', 521, 'withdraw')
 
 # Generate and print account statement
